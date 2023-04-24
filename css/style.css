@@ -1,0 +1,44 @@
+
+.banner {
+    width: 100%;
+}
+
+.title-principal {
+    padding-left: 20px;
+}
+
+.principal {
+    background-color: #CCCCCC;
+    padding: 30px;
+}
+
+.text-center { 
+    text-align: center;
+}
+
+.color-red {
+    color: red;
+}
+
+.itens {
+  font-style: italic;  
+}
+
+
+.benefits {
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+.benefits ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.benefitsImage{
+    width: 50%;
+}
+
+

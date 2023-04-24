@@ -1,0 +1,53 @@
+body {
+    box-sizing: border-box;
+}
+
+
+.products-list{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.products-list li{
+ display: inline-block;
+ text-align: center;
+ width: 30%;
+ vertical-align: top;
+margin: 0 1.5%;
+padding:  30px 20px;
+box-sizing: border-box;
+border: #000000 2px solid;
+border-radius: 10px;
+
+}
+
+.products-list li:hover{
+    border-color: #C78C19;
+}
+
+.products-list li:hover h2 {
+ font-size: 34px;
+}
+
+.products-list li:active {
+    border-color: #088C19;
+}
+
+.products-list h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.products-list li p {
+    font-size: 18px;
+}
+
+
+.products-list li p:last-child {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+
