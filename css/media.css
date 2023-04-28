@@ -1,0 +1,49 @@
+@media screen and (max-width:480px){
+    .header-box, .principal, .benefits-content,
+    .film, .benefits-content, .map-content, .contacts-content {
+        width: auto;
+    } 
+
+    .header-box {
+        padding-top: 1em;
+    }
+
+    .header-box h1{
+        text-align: center;
+    }
+
+    .header-nav{
+        position: static;
+        padding: 0 0 2em;
+    }
+
+    .benefits ul, .benefitsImage {
+        width: 100%;
+    }
+
+    .principal, .benefits {
+        padding: 1em;
+    }
+
+    .products-list{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .products-list li{
+        width: 70%;
+        margin: auto;
+        margin-bottom: 3em;
+    }
+
+    .contacts-content form, .contacts-content table {
+        width: 70%;
+        margin: 2em auto;
+    }
+
+
+    .input-pattern{
+        width: 80%;
+    }
+}

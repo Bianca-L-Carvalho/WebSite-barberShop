@@ -3,42 +3,108 @@
     width: 100%;
 }
 
-.title-principal {
-    padding-left: 20px;
+.benefitsImage{
+    width: 100%;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left; /* limpa o float da img tools */
 }
 
 .principal {
-    background-color: #CCCCCC;
-    padding: 30px;
+    padding: 3em;
+    background: #FFFFFF;
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+
 }
 
-.text-center { 
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.tools {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.map {
+    padding: 3em 0;
+    background: linear-gradient(#FFFFFF, #888888);
+}
+
+.map-content{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.map p {
+    margin: 0 0 2em;
     text-align: center;
 }
 
-.color-red {
-    color: red;
-}
-
-.itens {
-  font-style: italic;  
-}
-
-
 .benefits {
-    background-color: #FFFFFF;
-    padding: 20px;
+    padding: 3em 0;
+    background-color: #888888;
 }
 
 .benefits ul {
     display: inline-block;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    width: 40%;
 }
+
+
+.benefits-content {
+width: 640px;
+margin: 0 auto;
+}
+
+.itens{
+    line-height: 1.5;
+   
+}
+
+.itens:before {
+    content: "✽"; 
+}
+   
 
 .benefitsImage{
-    width: 50%;
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.benefitsImage:hover {
+    opacity: 0.7;
 }
 
 
+
+.film {
+    width: 560px;
+    margin: 2em auto;
+}
+
+
+
+@media screen and (max-width:480px){
+    .box{
+        
+    }
+}
